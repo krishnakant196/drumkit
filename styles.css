@@ -2,12 +2,20 @@ body {
   text-align: center;
   background-color: #283149;
 }
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+  width: auto;
+}
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   color: #DBEDF3;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
+
 
 }
 
@@ -45,7 +53,12 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: auto;
+  width: auto;
 }
 
 .game-over {
